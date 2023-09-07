@@ -42,6 +42,7 @@ jobs:
           cache: npm # optional
           # Used to specify the path to a dependency file: package-lock.json, yarn.lock, etc. Supports wildcards or a list of file names for caching multiple dependencies.
           cache-dependency-path: package-lock.json
+      - run: npm install -g hexo-cli
       - run: npm run clean
       - run: npm run build
 
