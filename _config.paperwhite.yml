@@ -1,0 +1,7 @@
+menu:
+  Home: /
+  About: /about
+
+giscus:
+  enable: true
+  repo: https://github.com/f2ngwx
