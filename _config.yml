@@ -105,9 +105,9 @@ deploy:
   type: git
   repo: https://github.com/f2ngwx/f2ngwx
   branch: page
-  token: $GH_TOKEN
-  # name: [git user]
-  # email: [git email]
+  token: $GITHUB_TOKEN
+  name: f2ngwx
+  email: maiduobeta@gmail.com
   # extend_dirs: [extend directory]
   # ignore_hidden: false # default is true
   # ignore_pattern: regexp  # 
