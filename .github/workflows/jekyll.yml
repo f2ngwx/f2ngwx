@@ -33,6 +33,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          ref: main
       - name: Setup Node.js environment
         uses: actions/setup-node@v3.8.1
         with:
@@ -42,7 +44,21 @@ jobs:
           cache: npm # optional
           # Used to specify the path to a dependency file: package-lock.json, yarn.lock, etc. Supports wildcards or a list of file names for caching multiple dependencies.
           cache-dependency-path: package-lock.json
-      - run: npm install
-      - run: npm run clean
-      - run: npm run build
-      - run: npm run deploy
+      - name: Setup Hexo
+        env:
+          ACTION_DEPLOY_KEY: ${{ secrets.HEXO_DEPLOY_KEY }}
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
+          chmod 700 ~/.ssh
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          git config --global user.email "maiduobeta@gmail.com"
+          git config --global user.name "f2ngwx"
+          npm install hexo-cli -g
+          npm install
+
+      - name: Deploy
+        run: |
+          hexo clean
+          hexo deploy
