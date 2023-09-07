@@ -1,13 +1,4 @@
-<!--
- * @Author: f2ngwx
- * @Date: 2023-09-07 16:02:28
- * @LastEditors: f2ngwx
- * @LastEditTime: 2023-09-07 16:16:00
- * @FilePath: \gamec:\projects\f2ngwx\README.md
- * @Description: 
- * 
- * Copyright (c) 2023 by CGGAME, All Rights Reserved. 
--->
+
 ### Hi there 👋
 
 <!--
