@@ -103,7 +103,7 @@ theme: cactus
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/f2ngwx/f2ngwx
+  repo: https://f2ngwx@github.com/f2ngwx/f2ngwx
   branch: page
   token: $GITHUB_TOKEN
   name: f2ngwx
