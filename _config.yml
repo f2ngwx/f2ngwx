@@ -103,9 +103,9 @@ theme: cactus
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://$GITHUB_TOKEN@github.com/f2ngwx/f2ngwx
+  repo: https://$TOKEN@github.com/f2ngwx/f2ngwx
   branch: page
-  token: $GITHUB_TOKEN
+  token: $TOKEN
   name: f2ngwx
   email: maiduobeta@gmail.com
   # extend_dirs: [extend directory]
