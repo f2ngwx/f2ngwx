@@ -7,7 +7,7 @@
 <h5 align="center">
   <code><a href="https://www.linkedin.com/in/10086/" title="LinkedIn"><img width="22" src="images/linkedin.svg"> LinkedIn </a></code>
   <code><a href="https://twitter.com/f2ngwx/" title="Twitter"><img width="22" src="images/twitter.svg"> Twitter </a></code>
-  <code><a href="https://https://www.spiritebird.com/" title="Website"><img width="22" src="images/home.svg"> Instagram </a></code>
+  <code><a href="https://www.spiritebird.com/" title="Website"><img width="22" src="images/home.svg"> Website </a></code>
 </h5>
 <br>
 <p align="center">
@@ -16,7 +16,7 @@
   <br>
   💬 Ask me anything about from <a href="https://github.com/f2ngwx/f2ngwx/issues" title="Issues">Here</a>
   <br>
-  📫 How to reach me: <a href="mailto: maiduobeta@gamail.com"> maiduobeta@gamail.com</a>
+  📫 How to reach me: <a href="mailto: maiduobeta@gmail.com"> maiduobeta@gmail.com</a>
 </p>
 
 <!-- <hr>
@@ -52,6 +52,5 @@
   <code><img title="npm" height="25" src="images/npm.svg"></code>
   <code><img title="PHP" height="25" src="images/php.svg"></code>
   <code><img title="Flask" height="25" src="images/flask.png"></code> -->
-</p>
-<hr> -->
+<!-- </p> -->
 
