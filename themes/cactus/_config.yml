@@ -28,6 +28,9 @@ nav:
 # 'icon' value will be used as title when 'label' is missing.
 social_links:
   -
+    icon: linkedin
+    link: https://www.linkedin.com/in/10086/
+  -
     icon: github
     link: http://github.com/f2ngwx
   -
@@ -35,7 +38,7 @@ social_links:
     link: https://twitter.com/f2ngwx
   -
     icon: mail
-    link: mailto:name@email.com
+    link: mailto:maiduobeta@gmail.com
   -
     icon: mastodon
     label: mastodon.social
@@ -199,7 +202,7 @@ umami_analytics:
 # logo and/or favicons of you website.
 # To generate hash: `$ echo -n "name@email.com" | md5`.
 gravatar:
-  email: name@email.com
+  email: maiduobeta@gmail.com
   hash: d41d8cd98f00b204e9800998ecf8427e
 
 # loads libraries and styles from CDN instead or relying on local files
