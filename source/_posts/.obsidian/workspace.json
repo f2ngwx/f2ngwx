@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "099538cfd7971095",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "test.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hello-world.md",
+                "file": "test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hello-world.md",
+                "file": "test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hello-world.md"
+                "file": "test.md"
               }
             }
           }
@@ -146,8 +159,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7a23a3f31b9dbb86",
+  "active": "099538cfd7971095",
   "lastOpenFiles": [
-    "hello-world.md"
+    "hello-world.md",
+    "test.md"
   ]
 }
